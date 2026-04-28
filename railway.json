@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "cd WMT_LabTest_Project/backend && npm install && cd ../frontend && npm install && npm run build"
+  },
+  "deploy": {
+    "startCommand": "cd WMT_LabTest_Project/backend && npm start"
+  }
+}
